@@ -19,6 +19,8 @@
 		C4FD90D41617706F008171A2 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4FD90D21617706F008171A2 /* MainStoryboard_iPhone.storyboard */; };
 		C4FD90D71617706F008171A2 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4FD90D51617706F008171A2 /* MainStoryboard_iPad.storyboard */; };
 		C4FD90DA1617706F008171A2 /* WSLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD90D91617706F008171A2 /* WSLViewController.m */; };
+		C4FD90E216177095008171A2 /* WSLTestActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD90E116177095008171A2 /* WSLTestActivity.m */; };
+		C4FD90E5161770AD008171A2 /* WSLTestActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FD90E4161770AD008171A2 /* WSLTestActivityViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		C4FD90D61617706F008171A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C4FD90D81617706F008171A2 /* WSLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSLViewController.h; sourceTree = "<group>"; };
 		C4FD90D91617706F008171A2 /* WSLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSLViewController.m; sourceTree = "<group>"; };
+		C4FD90E016177095008171A2 /* WSLTestActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLTestActivity.h; sourceTree = "<group>"; };
+		C4FD90E116177095008171A2 /* WSLTestActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLTestActivity.m; sourceTree = "<group>"; };
+		C4FD90E3161770AD008171A2 /* WSLTestActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLTestActivityViewController.h; sourceTree = "<group>"; };
+		C4FD90E4161770AD008171A2 /* WSLTestActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLTestActivityViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,10 @@
 				C4FD90D51617706F008171A2 /* MainStoryboard_iPad.storyboard */,
 				C4FD90D81617706F008171A2 /* WSLViewController.h */,
 				C4FD90D91617706F008171A2 /* WSLViewController.m */,
+				C4FD90E016177095008171A2 /* WSLTestActivity.h */,
+				C4FD90E116177095008171A2 /* WSLTestActivity.m */,
+				C4FD90E3161770AD008171A2 /* WSLTestActivityViewController.h */,
+				C4FD90E4161770AD008171A2 /* WSLTestActivityViewController.m */,
 				C4FD90C11617706F008171A2 /* Supporting Files */,
 			);
 			path = ActivityViewBug;
@@ -181,6 +191,8 @@
 				C4FD90C71617706F008171A2 /* main.m in Sources */,
 				C4FD90CB1617706F008171A2 /* WSLAppDelegate.m in Sources */,
 				C4FD90DA1617706F008171A2 /* WSLViewController.m in Sources */,
+				C4FD90E216177095008171A2 /* WSLTestActivity.m in Sources */,
+				C4FD90E5161770AD008171A2 /* WSLTestActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

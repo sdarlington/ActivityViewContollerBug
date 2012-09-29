@@ -1,5 +1,5 @@
 //
-//  WSLViewController.h
+//  WSLTestActivity.h
 //  ActivityViewBug
 //
 //  Created by Stephen Darlington on 29/09/2012.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WSLViewController : UIViewController
-
-- (IBAction)pressGo:(id)sender;
+@interface WSLTestActivity : UIActivity
 
 @end
