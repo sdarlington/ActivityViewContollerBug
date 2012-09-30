@@ -3,6 +3,12 @@ ActivityViewContollerBug
 
 I have a problem: http://stackoverflow.com/q/12543565/2998
 
+Current observations:
+
+* This works as I'd expect on the iPhone
+* On the iPad the "I'm done" button doesn't work
+* On the iPad the activityViewController appears modally rather than as a popup. Is this Apple's bug or am I missing something?
+
 In detail:
 
 
