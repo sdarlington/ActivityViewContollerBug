@@ -36,6 +36,7 @@
 }
 
 - (IBAction)doneButton:(id)sender {
+    // Don't "manually" dismiss, instead call activityDidFinish: of the UIActivity.
     [self.activity activityDidFinish:YES];
 }
 
