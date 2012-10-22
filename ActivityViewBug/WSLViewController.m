@@ -40,6 +40,9 @@
     }
     else {
         self.popup = [[UIPopoverController alloc] initWithContentViewController:activity];
+        activity.completionHandler = ^(NSString *activityType, BOOL completed){
+            [self.popup dismissPopoverAnimated:YES];
+        };
         [self.popup presentPopoverFromRect:sender.frame
                                     inView:self.view
                   permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
